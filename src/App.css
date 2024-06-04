@@ -1,0 +1,114 @@
+#root {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 3em;
+  background-color: rgb(31, 37, 53);
+}
+
+.nav-box {
+  display: flex;
+  align-items: center;
+  max-width: 10em;
+}
+
+.nav-box img {
+  width: 100%;
+  height: auto;
+}
+
+.hero {
+  background-color: rgb(31, 37, 53);
+  display: flex;
+  flex-direction: column;
+  min-height: 400px;
+}
+
+.main-space {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex: 1;
+}
+
+.content {
+  width: 50vw;
+  padding-left: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+h1 {
+  color: white;
+  text-align: left;
+  margin-top: 1em;
+  margin-bottom: 0;
+}
+
+.text-div {
+  width: 65%;
+}
+
+.hero p {
+  color: white;
+  font-family: "Helvetica", sans-serif;
+  text-align: left;
+  margin-bottom: 2em;
+}
+
+.button-light {
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  margin-bottom: 2em;
+  display: inline-block;
+  width: auto;
+}
+
+.icon-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 2em;
+  padding-left: 3em;
+  padding-right: 3em;
+  min-height: 250px;
+}
+
+.icon-card {
+  padding-left: 1em;
+  padding-right: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 12%;
+}
+
+.icon-card div {
+  display: flex;
+  align-items: center;
+  width: 5em;
+  margin-bottom: 1em;
+}
+
+.icon-card img {
+  width: 100%;
+
+  height: auto;
+}
+
+.icon-card h3 {
+  margin: 0;
+}
+
+.icon-card p {
+  font-size: 0.85em;
+  margin: 0;
+}
